@@ -1,0 +1,13 @@
+# Compiler- und Editor-Dateien ignorieren
+.vscode/
+.idea/
+*.o
+*.out
+*.exe
+*.bin3
+*.obj
+*.log
+CMakeCache.txt
+CMakeFiles/
+
+vokabeltrainer
