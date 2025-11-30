@@ -1,13 +1,24 @@
-# Compiler- und Editor-Dateien ignorieren
+# Editor / IDE
 .vscode/
 .idea/
+
+# C/C++ Build-Artefakte
 *.o
-*.out
-*.exe
-*.bin3
 *.obj
+*.exe
+*.out
 *.log
+
+# Debug-Dateien (MSVC)
+*.pdb
+*.ilk
+
+# CMake
 CMakeCache.txt
 CMakeFiles/
+cmake_install.cmake
+Makefile
+build/
 
+# ggf. generierte Binary ohne Endung (Linux)
 vokabeltrainer
